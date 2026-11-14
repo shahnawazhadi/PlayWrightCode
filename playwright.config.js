@@ -13,6 +13,7 @@ const config=({
 reporter: 'html',
   use: {
     browserName: 'chromium',
+    ignoreHTTPSErrors: true,
     headless: false
   },
   preserveOutput: 'always'
